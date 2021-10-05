@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sercan Lülleci</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Allison&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body id="anasayfa" onload="basla()">
+    <div id="menu">
+        <div id="profil"><img src="resim4.jpg"></div>
+    </div>
+    <div id="bilgialanı">
+        <div id="navbar">
+            <section onclick="anasayfa()" class="nav">AnaSayfa</section>
+            <section onclick="hakkımda()" class="nav">Hakkımda</section>
+            <section onclick="egitim()" class="nav">Eğitimlerim</section>
+            <section onclick="sertifika()" class="nav">Sertifikalarım</section>
+            <section onclick="proje()" class="nav">Projelerim</section>
+            <section onclick="iletisim()" class="nav">İletişim</section>
+        </div>
+        <div id="girisyazısı">
+            <p> İlk defa 9.sınıftayken kendime ait bir bilgisayar sahibi oldum.
+                Ve o zamanlar bu bilgi kutusunun hayatıma bu denli gireceğinin ve tüm hedeflerimi bunun üzerine kuracağımı düşünemezdim.
+                İlk yıllarda donanımsal olarak bilgisayar parçaları ile ilgilenmek yaptığım en zevli işler arasında olduğunu düşünürdüm. 
+                Zaman geçtikçe ve sektörel bilgiler elde edebildikçe benim için yazılım kısmı oldukça ağır basan taraf oldu. 
+                Bu değişimdeki en önemli etken adobe photoshop öğrenmem ile başlayıp akabinde üniversitede almış olduğum algoritma ve programlama dersleri olmuştur.
+                Üniversitede aldığım pascal programlama dilini ilk başlarda sevmesemde algoritma bilgisi olarak çok faydalı olduğunu düşünüyorum. 
+                Daha sonra yine üniversite programlama dersinde aldığım c eğitimi ile yazılımsal olarak bu alana ilgim oldukça arttı.
+                Şuanda üniversiteden bağımsız olarak online eğitimler yardımıyla python-sql-html-css-javascript eğitimleriyle kendimi geliştirmek için çabalamaktayım.
+                Ev ortamında yapmış olduğum bu gelişimi daha üst sıralara çekebileceğim bir kariyer hedefi içindeyim. 
+                Yaşam prensibi olarak "Bugünün işini yarına bırakma" sözünü kendime ilke olarak edinmiş ve verilen görevi en kısa sürede tamamlayıp teslim edilmesi gerektiği düşüncesini içimde barındırmaktayım. 
+                Öncelikli hedefim web yazılım,veri analisti,iş zekası uzmanı,veri mühendisi,veri ambarı uzmanlığı gibi sektörlere adım atabilmek ve daha sonra içine girdiğim sektörün ihtiyaç ve gereksinimlerine göre kendime yol haritası çizip uzun yıllar gelişim gösterebileceğim bir kariyer sahibi olmaktır. </p>
+        </div>
+        <div id="hakkında">
+                 <h2>Hakkımda</h2>
+                <div id="hakkındabir">
+                    <span class="renk">isim Soyisim:</span>  Sercan LÜLLECİ <br/><br/>
+                    <span class="renk">Yaş:</span><span id="yas"></span><br/><br/>
+                    <span class="renk"> Yetenekler:</span> html,css,javascript,Adobe photoshop,Adobe primiere,Ms office <br/><br/>
+                    <span class="renk"> Dil :</span> Türkçe <br/><br/>
+                    <button type="button" class="indir" onclick="indirbir()">Özgeçmiş İndir...</button>
+                    <button type="button" class="indir" onclick="indiriki()">Transkript İndir...</button>
+                </div>
+        </div>
+        <div id="egitim">
+            <h2>Eğitimlerim</h2>
+           <div id="lise">
+                <p> -DEVREK HAMİDİYE ANADOLU LİSESİ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2007/2011</p>
+               <h5>&nbsp; Fen Bilimleri bölümünden 68,05/100 ortalama ile mezun oldum.</h5> 
+           </div>
+           <div class="lisans">
+            <p> -KARABÜK ÜNİVERSİTESİ HAZIRLIK &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2011/2012</p>
+            <h5>&nbsp;Üniversitenin ilk yılında bir yıllık zorunlu ingilizce hazırlık proğramına dahil oldum.Ve tüm sınavları başarı ile tamamladım.</h5> 
+            </div>
+            <div class="lisans">
+                <p> -KARABÜK ÜNİVERSİTESİ - MATEMATİK &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2011/2012</p>
+                <h5>&nbsp;Lisans eğitimini Fen Fakültesi Matematik Bölümünden 3,11/4 ortalama ile mezun oldum.</h5> 
+            </div>
+        </div>
+        <div id="sertifikalar">
+            <h2>Sertifikalarım</h2>
+            <div id="tablo">
+                <img src="html-css sertifika.jpg" width="350px" height="250px" style="cursor: pointer;" onclick="this.src='html-css sertifika.jpg ';this.height=500;this.width=700"
+                ondblclick="this.src='html-css sertifika.jpg';this.width=350; this.height=250;">
+                <img src="javascript.jpg" width="350px" height="250px"  style="cursor: pointer;" onclick="this.src='javascript.jpg';this.height=500;this.width=700"
+                ondblclick="this.src='javascript.jpg';this.width=350; this.height=250;">
+                <img  src="Algoritma_ve_Programlamaya_Giri_Sertifikası.JPG" width="350px" height="250px"  style="cursor: pointer;" onclick="this.src='Algoritma_ve_Programlamaya_Giri_Sertifikası.JPG';this.height=500;this.width=700"
+                ondblclick="this.src='Algoritma_ve_Programlamaya_Giri_Sertifikası.JPG';this.width=350; this.height=250;">
+                <img  src="Python_Programlamaya_Giriş_Sertifikası.jpg" width="350px" height="250px"  style="cursor: pointer;" onclick="this.src='Python_Programlamaya_Giriş_Sertifikası.jpg ';this.height=500;this.width=700"
+                ondblclick="this.src='Python_Programlamaya_Giriş_Sertifikası.jpg';this.width=350; this.height=250;">
+                <img  src="sertifika algoritma ve programlama mantığı.jpg" width="350px" height="250px"  style="cursor: pointer;" onclick="this.src='sertifika algoritma ve programlama mantığı.jpg';this.height=500;this.width=700"
+                ondblclick="this.src='sertifika algoritma ve programlama mantığı.jpg';this.width=350; this.height=250;">
+                <img  src="web sitesi kullanılabilirliği.jpg" width="350px" height="250px"  style="cursor: pointer;" onclick="this.src='web sitesi kullanılabilirliği.jpg';this.height=500;this.width=700"
+                ondblclick="this.src='web sitesi kullanılabilirliği.jpg';this.width=350; this.height=250;">
+                <img  src="Basitten İleriye ecxel++.jpg" width="350px" height="250px"  style="cursor: pointer;" onclick="this.src='Basitten İleriye ecxel++.jpg ';this.height=500;this.width=700"
+                ondblclick="this.src='Basitten İleriye ecxel++.jpg';this.width=350; this.height=250;">
+                <img  src="Sıfırdan  ileriye excel.jpg" width="350px" height="250px"  style="cursor: pointer;" onclick="this.src='Sıfırdan  ileriye excel.jpg ';this.height=500;this.width=700"
+                ondblclick="this.src='Sıfırdan  ileriye excel.jpg';this.width=350; this.height=250;">
+                <img  src="photoshop içinde pratik uygulamalar.jpg" width="350px"  style="cursor: pointer;" height="250px" onclick="this.src='photoshop içinde pratik uygulamalar.jpg ';this.height=500;this.width=700"
+                ondblclick="this.src='photoshop içinde pratik uygulamalar.jpg';this.width=350; this.height=250;">
+            </div>
+
+        </div> 
+        <div id="projeler">
+            <h2>Projelerim</h2>
+                <div id="projebir">
+                    <h4 style="color: rgb(145, 28, 28);" > Proje 1 : DEVREK İLÇESİ TANITIM</h4> <hr>
+                    <p style="color: red;">videoyu izlemek için fotografa tıklayınız...!</p>
+                    <video onclick="izle1()" src="" width="650px" height="250px" controls="controls"></video>
+                    <img onclick="izle1()" src="devrek1.JPG"width="650px" height="250px" style="position: absolute; left: 35px; cursor: pointer;" alt="videoyu izlemek için fotografa tıklayınız...!" >
+                </div>
+                <div id="projeiki">
+                    <h4 style="color: rgb(145, 28, 28);">Proje 2 : SERCAN FOTOĞRAFÇILIK</h4> <hr>
+                    <p style="color: red;">videoyu izlemek için fotografa tıklayınız...!</p>
+                    <video onclick="izle2()" src="" width="650px" height="250px" controls="controls" ></video>
+                    <img onclick="izle2()" src="sercanfoto.JPG"width="650px" height="250px" style="position: absolute; left: 35px; cursor: pointer;" alt="videoyu izlemek için fotografa tıklayınız...!">
+                </div>
+                <div id="projeüc">
+                    <h4 style="color: rgb(145, 28, 28);">Proje 3 : SERCAN LÜLLECİ ÖZGEÇMİŞ SAYFASI</h4> <hr>
+                    <p style="color: red;">videoyu izlemek için fotografa tıklayınız...!</p>
+                    <video onclick="izle3()" src="" width="650px" height="250px" controls="controls"></video>
+                    <img onclick="izle3()" src="syf1.JPG"width="650px" height="250px" style="position: absolute; left: 35px; cursor: pointer;" alt="videoyu izlemek için fotografa tıklayınız...!">
+
+                </div>
+        </div>
+        <div id="iletisim">
+            <h2>İletişim</h2>
+           <div id="iletisimbir">
+               <div id="sosyal">
+                   <h2>BANA ULAŞIN</h2>
+                  <!--- <img src="mail.png" width="40px" height="40px">
+                   <h3 > srcn_llc_@hotmail.com</h3> -->
+                   <div id="tek"><i class="far fa-envelope"></i>
+                    <h3>srcn_llc_@hotmail.com</h3></div>
+                    <div id="tel"><i class="fas fa-phone"></i>
+                    <h3>0543 528 19 44</h3></div>
+                    <div id="face"><i class="fab fa-facebook-f"></i>
+                    <a href="https://www.facebook.com/s.lulleci">facebook:Sercan Lülleci</a></div>
+                    <div id="linke"><i class="fab fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/sercan-l%C3%BClleci-673440125/">Linkedin:Sercan Lülleci</a></div>
+                    <div id="site"><i class="fab fa-internet-explorer"></i>
+                    <a href="http://sercanlulleci.rf.gd/?i=1">www.sercanlulleci.rf</a></div>
+               </div>
+         <!--      <div id="mesaj">
+                <form >
+                    <table id="formm">
+                        <tr>
+                            <td><label for="name">Ad Soyad : </label></td>
+                            <td><input  style="background-color:#b1913a;" type="text" name="name" id="name" /></td>
+                        </tr>
+                        <tr>
+                            <td><label for="name">Mail : </label></td>
+                            <td><input style="background-color:#b1913a;" type="text" name="mail" id="mail" /></td>
+                        </tr>
+                        <tr>
+                            <td><label for="konu">Konu : </label></td>
+                            <td><input style="background-color:#b1913a;" type="text" name="konu" id="konu" /></td>
+                        </tr>
+                        <tr>
+                            <td><label for="name">Mesaj : </label></td>
+                            <td><textarea  type="text" name="mesaj" id="mesaj" style="width:300px;height:70px;background-color:#b1913a;"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"> <button id="button" onclick="mailat()">Gönder</button></td>
+                        </tr>
+                    </table>   
+                </form>
+               </div> -->
+           </div>
+   </div>
+   </div> 
+
+<script src="app1.js"></script>
+
+</body>
+</html>

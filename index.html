@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sercan Lülleci</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        background-color:#fbfbfb;
+   }
+    .gövde{
+        width: 100% ;
+        height: auto;
+        float: left;
+        position: relative;
+        /*text-align: center;*/
+       /* margin-top: 60px; */
+        background-color: #fbfbfb;
+
+        }
+    #yazıalanı{
+        width: 750px;
+        height: auto;
+        float: left;
+        position: relative;
+        margin-top: 150px;
+        /*margin-left: 150px;*/
+
+        }
+    #resimalanı{
+        float: left;
+    }
+    #baslık{
+        font-size: 50px;
+        color: #e0b131;
+        padding-top: 5px;
+        letter-spacing: 8px;
+        animation: yazı-anim 3s ease;
+    }
+    @keyframes yazı-anim{
+        0%{
+            letter-spacing: 8px;
+        }
+        30%{
+            letter-spacing: 30px;
+            color: black;
+        }
+    }
+    #isim{
+        font-size: 25px;
+        padding-bottom: 15px;
+        color: black;
+
+
+    }
+    span{
+        font-size: 40px;
+        color: #e0b131;
+    }
+    #yazı{
+        font-size: 18px;
+        padding-bottom: 15px;
+        color: black;
+    }
+    
+    #buton{
+        width: 400px;
+        height: 50px;
+        border: 2px solid black;
+        background-color: #e0b131;
+        color: black;
+        border-radius: 20px;
+        cursor: pointer;
+        margin-top: 5px;
+        transition:0.5s;
+    }
+    #buton:hover{
+    background-color: black;
+    color: #e0b131;
+    transform: scale(1.1);
+    border: 2px solid #e0b131;
+    }
+    
+</style>
+
+<body>
+    <div class="gövde">
+        <div id="resimalanı"><img src="resim1.jpg" width="550px " height="621px"></div>
+        <div id="yazıalanı">
+            <div id="baslık" >MERHABA !</div>
+            <div id="isim">Ben <span>Sercan Lülleci...</span></div>
+            <div id="yazı">Junior Ön Geliştirici Olabilmek İçin Çabalayan Bir Matematikçiyim.Bu Site Yaptığım Dördüncü Proje fakat Javascript Kullandığım İlk Projem...            Bu Site İçerisinde Hakkımda Bazı Bilgileri Göreceksiniz...</div>
+        </div>
+
+        <button id="buton" onclick="sayfayagit()">Sayfama buradan geçiş yapabilirsiniz...</button>
+    </div>
+
+<script src="app1.js"></script>
+</body>
+</html>
